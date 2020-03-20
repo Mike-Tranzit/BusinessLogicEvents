@@ -1,3 +1,1 @@
-<app-event-wrapper></app-event-wrapper>
-<app-event-wrapper></app-event-wrapper>
-<app-event-wrapper></app-event-wrapper>
+<app-event-wrapper *ngFor="let item of eventComponents" [eventComponent]="item"></app-event-wrapper>

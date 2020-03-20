@@ -1,5 +1,4 @@
 export interface IEventData {
-  eventName: string;
   userName: string;
   dateOfAction: Date;
 }
